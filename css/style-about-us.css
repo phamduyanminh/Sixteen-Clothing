@@ -1,0 +1,44 @@
+/*
+*Banners*
+*/
+.banner{
+    margin-top: 0;
+}
+
+.banner-img {
+    padding: 200px 0px;
+    background-image: url(https://templatemo.com/templates/templatemo_546_sixteen_clothing/assets/images/about-heading.jpg);
+    width: 100%;
+    height: 130px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    position: relative;
+}
+
+.banner-content {
+    font-weight: 1000;
+    text-transform: uppercase;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+
+/*
+*Lower Body Part*
+*/
+.lower-body{
+    padding-top: 100px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.hr{
+    border: none;
+    height: 0.05rem;
+    color: #DCDCDC;
+    background-color: #DCDCDC;
+    margin-bottom: 60px;
+}
