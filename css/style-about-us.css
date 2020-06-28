@@ -42,3 +42,10 @@
     background-color: #DCDCDC;
     margin-bottom: 60px;
 }
+
+.member{
+    width: 330px;
+    height: 400px;
+    border: 1px solid #ebedeb;
+    box-shadow: 0px 10px 15px rgba(0, 0 , 0, 0.2);
+}
