@@ -35,12 +35,11 @@
     padding-right: 15%;
 }
 
-.hr{
+.hr-about-us{
     border: none;
     height: 0.05rem;
     color: #DCDCDC;
     background-color: #DCDCDC;
-    margin-bottom: 60px;
 }
 
 .member{
@@ -51,38 +50,62 @@
 }
 
 .social-media{
+    padding: 0;
+    margin: 0;
     list-style: none;
-    display: flex;
-    position: relative;
-    justify-content: space-around;
 }
 
 .social-media li {
-    height: 100%;
-    width: 10%;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
+    display: inline-block;
+    margin-right: 3px;
     background-color: #eee;
-    margin-top: -2.5%;
-    text-align: center;
 }
 
 .social-media-list{
-    position: relative;
-    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    line-height: 50px;
+    background-color: #eee;
     color: #121212;
+    font-size: 18px;
+    text-align: center;
+    transition: all .3s;
 }
 
-.social-media li:hover{
+.social-media-list:hover{
     background-color: #ef233c;
 }
 
-.div-visible{
-    position: absolute;
-    visibility: visible;
-    z-index: 1;
+.div-container{
+    position: relative;
 }
 
-.div-visible:hover{
+.social-media-container{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.div-container .social-media-container{
     visibility: hidden;
+    position: absolute;
+    transform: translate(0%, 0%);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 99%;
+    opacity: 0;
+    background-color: rgba(255,0,0,0.8);
+    transition: all .1s;
+}
+
+.div-container:hover .social-media-container{
+    visibility: visible;
+    opacity: 1;
+}
+
+.div-container .social-media-container .social-media-list:hover{
+    background-color: black;
+    color: white;
 }
