@@ -29,7 +29,7 @@
 /*
 *Lower Body Part*
 */
-.lower-body{
+.top-lower-body{
     padding-top: 100px;
     padding-left: 15%;
     padding-right: 15%;
@@ -77,6 +77,9 @@
     background-color: #ef233c;
 }
 
+/*
+*Team Members*
+*/
 .div-container{
     position: relative;
 }
@@ -108,4 +111,50 @@
 .div-container .social-media-container .social-media-list:hover{
     background-color: black;
     color: white;
+}
+
+/*
+*Read More*
+*/
+.span-item-about-us{
+    display: flex;
+    padding-bottom: 5%;
+    background-image: url(../pictures/background-pic.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 100px 0px;
+}
+
+.read-more-head{
+    background-color: #f7f7f7;
+    padding: 40px;
+    height: 30%;
+}
+
+.btn-about-us{
+    background-color: #f44336;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 4px 2px;
+    padding: 10px 24px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+}
+
+.read-more-btn{
+    transform: translateX(100%);
+}
+
+.detail-btn{
+    transform: translateX(113%);
+}
+
+.btn-about-us:hover{
+    background-color: black;
 }
