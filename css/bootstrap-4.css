@@ -1,0 +1,27 @@
+/*
+*Index html*
+*/
+
+
+/*
+*Contact html*
+*/
+.card-header{
+    background-color: white;
+    padding-left: 0px;
+}
+
+.card{
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.card:not(:first-child){
+    border-top: none;
+}
+
+.btn.btn-link{
+    text-decoration: none;
+    text-align: left;
+}

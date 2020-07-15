@@ -1,28 +1,8 @@
 /*
 *Banners*
 */
-.banner{
-    margin-top: 0;
-}
-
 .banner-img {
-    padding: 200px 0px;
     background-image: url(https://templatemo.com/templates/templatemo_546_sixteen_clothing/assets/images/about-heading.jpg);
-    width: 100%;
-    height: 130px;
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    position: relative;
-}
-
-.banner-content {
-    font-weight: 1000;
-    text-transform: uppercase;
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%, -50%);
 }
 
 
@@ -47,34 +27,6 @@
     height: 400px;
     border: 1px solid #ebedeb;
     box-shadow: 0px 10px 15px rgba(0, 0 , 0, 0.2);
-}
-
-.social-media{
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
-.social-media li {
-    display: inline-block;
-    margin-right: 3px;
-    background-color: #eee;
-}
-
-.social-media-list{
-    width: 50px;
-    height: 50px;
-    display: inline-block;
-    line-height: 50px;
-    background-color: #eee;
-    color: #121212;
-    font-size: 18px;
-    text-align: center;
-    transition: all .3s;
-}
-
-.social-media-list:hover{
-    background-color: #ef233c;
 }
 
 /*
