@@ -139,6 +139,16 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.banner-h4{
+    color: #f33f3f; 
+    font-size: 20px;
+}
+
+.banner-h1{
+    color: #FFF; 
+    font-size: 60px;
+}
+
 /*
 *Body div tag - Style for the body*
 */

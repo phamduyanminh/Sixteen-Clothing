@@ -2,7 +2,23 @@
 *Index html*
 */
 
+/*Banner*/
+.banner-h{
+    color: #f33f3f; 
+    font-size: 25px;
+    text-transform: uppercase;
+    transform: translate(0%, -800%);
+}
 
+.banner-p{
+    color: #FFF; 
+    font-size: 50px;
+    text-transform: uppercase;
+    transform: translate(0%, -300%);
+}
+
+
+/********************************************************************************/
 /*
 *Contact html*
 */
